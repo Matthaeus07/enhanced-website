@@ -74,3 +74,28 @@ footer button img {
     height: 30px;
     width: 30px;
 }
+
+.enhanced-industries-logo {
+    text-align: center;
+    height: 200px;
+    text-align: center;
+    padding-top: 15px;
+}
+.enhanced-industries-logo img {
+    max-width: 100%;
+    height: auto;
+    padding-right: 20px;
+}
+.enhanced-industries-logo h2 {
+    font-size: x-large;
+    position: relative;
+    bottom: 25px;
+}
+.enhanced-industries-logo p {
+    position: relative;
+    bottom: 35px;
+}
+
+.main-text {
+    margin-bottom: 200px;
+}
