@@ -8,7 +8,7 @@ body {
 }
 .header {
     overflow: hidden;
-    background-color: #37355a;
+    background: linear-gradient(-45deg, #37355a, #4a4090);
     padding: 25px 10px;
 }
 .header a {
@@ -36,7 +36,7 @@ body {
 .header-right {
     float: right;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 610px) {
 .header a {
     float: none;
     display: block;
@@ -48,7 +48,6 @@ body {
 }
 
 footer {
-    position: fixed;
     bottom: 0;
     width: 100%;
     background: #23272a;
@@ -76,10 +75,13 @@ footer button img {
 }
 
 .enhanced-industries-logo {
+    margin: auto;
     text-align: center;
     height: 200px;
-    text-align: center;
-    padding-top: 15px;
+    background: linear-gradient(-45deg, #23272a, #17181a, #17181a);
+    border-radius: 0 20px 20px 20px;
+    width: 250px;
+    height: 200px;
 }
 .enhanced-industries-logo img {
     max-width: 100%;
@@ -93,7 +95,11 @@ footer button img {
 }
 .enhanced-industries-logo p {
     position: relative;
-    bottom: 35px;
+    bottom: 40px;
+}
+
+main {
+    margin-top: 15px;
 }
 
 .main-text {
