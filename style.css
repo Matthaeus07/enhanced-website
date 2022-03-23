@@ -26,7 +26,7 @@ body {
     font-weight: bold;
 }
 .header a:hover {
-    background-color: #444363;
+    background-color: #504e77;
     color: beige;
 }
 .header a.active {
@@ -78,10 +78,11 @@ footer button img {
     margin: auto;
     text-align: center;
     height: 200px;
-    background: linear-gradient(-45deg, #23272a, #17181a, #17181a);
+    background: linear-gradient(-60deg, #23272a, #17181a, #17181a, #17181a);
     border-radius: 0 20px 20px 20px;
     width: 250px;
     height: 200px;
+    margin-top: 15px;
 }
 .enhanced-industries-logo img {
     max-width: 100%;
@@ -99,9 +100,29 @@ footer button img {
 }
 
 main {
-    margin-top: 15px;
+    margin-bottom: 200px;
 }
 
-.main-text {
-    margin-bottom: 200px;
+.discord-main {
+    margin-top: 50px;
+}
+.discord-main button {
+    background-color: #404eed;
+    border-radius: 3px;
+    border: none;
+    padding: 10px 20px 10px 15px;
+    cursor: pointer;
+}
+.discord-main a button img {
+    width: 30px;
+    border-right: 20px solid transparent;
+    position: relative;
+    top: 3px;
+}
+.discord-main a button span {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    bottom: 6px;
 }
