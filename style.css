@@ -4,8 +4,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: beige;
-
 }
+
+body {
+    width: 100%;
+    max-width: 2540px;
+    margin: 0 auto;
+}
+
 .header {
     overflow: hidden;
     background: linear-gradient(-45deg, #37355a, #4a4090);
@@ -48,6 +54,7 @@ body {
 }
 
 footer {
+    position:absolute;
     bottom: 0;
     width: 100%;
     background: #23272a;
@@ -99,10 +106,6 @@ footer button img {
     bottom: 40px;
 }
 
-main {
-    margin-bottom: 200px;
-}
-
 .discord-main {
     margin-top: 50px;
 }
@@ -125,4 +128,19 @@ main {
     font-size: 15px;
     position: relative;
     bottom: 6px;
+}
+
+.main-text {
+    margin: 45px 50px;
+    border: solid transparent;
+    border-radius: 10px;
+    background-color: #23272a;
+}
+@media screen and (max-width: 610px) {
+    .main-text {
+        margin: 45px 0px;
+    }
+}
+.main-text p {
+    padding: 5px 15px;
 }
