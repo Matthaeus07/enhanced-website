@@ -134,7 +134,8 @@ footer button img {
     margin: 45px 50px;
     border: solid transparent;
     border-radius: 10px;
-    background-color: #23272a;
+    background-color: #1c1f22;
+    box-shadow: 26px 13px 18px #101110;
 }
 @media screen and (max-width: 610px) {
     .main-text {
