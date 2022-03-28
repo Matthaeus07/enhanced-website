@@ -144,3 +144,9 @@ footer button img {
 .main-text a, .main-text p, .main-text h1 {
     padding: 5px 15px;
 }
+.main-text a {
+    color:#6059ec;
+}
+.projects-links a {
+    padding: 0;
+}
