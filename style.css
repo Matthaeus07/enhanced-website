@@ -133,6 +133,7 @@ footer button img {
     margin: 45px 50px;
     border: solid transparent;
     border-radius: 10px;
+    max-width: 1200px;
     background-color: #1c1f22;
     box-shadow: 26px 13px 18px #101110;
 }
